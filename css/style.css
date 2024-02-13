@@ -601,3 +601,49 @@ body {
 .footer-icon-icon {
     fill: #f4f4fd;
 }
+
+.footer-input {
+    display: flex;
+    margin-top: 16px;
+    width: 264px;
+    height: 40px;
+    background-color: #2E2F42;
+    border-radius: 4px;
+    border: 1px solid #FFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.form-input::placeholder {
+    padding-left: 16px;
+    color: #FFF;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    background-color: transparent;
+}
+
+.footer-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 165px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #4D5AE5;
+    padding: 8px 24px;
+    color: #FFF;
+    cursor: pointer;
+    border: none;
+}
+
+.icon-frame {
+    margin-left: 16px;
+}
+
+.footer-form {
+    display: flex;
+    gap: 24px;
+}
