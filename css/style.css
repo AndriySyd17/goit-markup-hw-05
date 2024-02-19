@@ -665,15 +665,28 @@ body {
     fill: #f4f4fd;
 }
 
+.text-subscribe {
+    margin-bottom: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
 .footer-input {
     display: flex;
     margin-top: 16px;
     width: 264px;
     height: 40px;
-    background-color: #2E2F42;
     border-radius: 4px;
     border: 1px solid #FFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    background-color: transparent; 
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    color: #ffffff;
 }
 
 .form-input::placeholder {
@@ -683,6 +696,7 @@ body {
     line-height: 2;
     letter-spacing: 0.04em;
     background-color: transparent;
+    color: #ffffff;
 }
 
 .footer-button {
