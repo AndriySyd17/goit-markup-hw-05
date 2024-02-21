@@ -224,12 +224,7 @@ body {
     margin-bottom: 16px;
 }
 .form {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    padding: 8px;
-    border: 1px solid #212121;
-    max-width: 300px;
+    
 }
   
 .form-field {
@@ -673,7 +668,7 @@ body {
 }
 
 .footer-icon {
-    margin-right: 120px;
+    margin-right: 80px;
 }
 
 .footer-text-icon {
@@ -728,7 +723,6 @@ body {
 
 .footer-input {
     display: flex;
-    margin-top: 16px;
     width: 264px;
     height: 40px;
     border-radius: 4px;
